@@ -1,13 +1,12 @@
-import { Button } from "./components/ui/button"
+import Todo from "@/page/Todo";
 
-function App() {
-
+const App = () => {
+  
   return (
-    <div className="text-center">
-      <h1 className="text-2xl text-center">Todo App.</h1>
-      <Button>My Button</Button>
+    <div className="text-2xl text-center">
+      <Todo/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
